@@ -1,0 +1,152 @@
+
+html,
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+  color: seashell;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  justify-content: left;
+}
+
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid white; 
+}
+
+.menu {
+    display: block;
+    text-align: right;
+    font-size: 20px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: 600
+}
+
+li a{
+    color: seashell;
+    margin-top: 0;
+}
+
+.logo {
+    height: 50px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+h4,
+h2{
+    text-align: center;
+    font-weight: 600;
+}
+
+.mission_container{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    display: flex;  
+}
+
+.mission_text {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+  padding: 10px auto;
+  align-items: center;
+}
+
+
+.ftea_title {
+    margin: auto;
+    padding-top: 70px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.wrapper img{
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+}
+
+.wrapper p{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 0;
+}
+
+#locations{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto 10px auto;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.address {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1050px;
+    margin: 10px;
+}
+
+.ad_text{
+    background-color: black;
+    width: 300px;
+    margin: 10px;
+    line-height: 1.8;
+    /*flex-basis: 30%;
+    box-sizing: border-box;
+    */
+    opacity: 0.9;
+}
+
+.footer{
+    height: 200px;
+    text-align: center;
+    line-height: 1.8;
+    margin: 0 auto 20px auto;
+}
+
+#copyright{
+    font-size: 16px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+    @media only screen and (max-width: 500px) {
+        .menu {
+          font-size: 15px;
+        }
+      }
+
